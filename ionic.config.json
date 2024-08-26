@@ -1,0 +1,7 @@
+{
+  "name": "dcb",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
