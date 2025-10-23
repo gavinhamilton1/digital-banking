@@ -7,6 +7,8 @@ import { IonAccordionGroup, IonAccordion, IonItem, IonLabel } from '@ionic/react
 
 const ActionItems: React.FC = () => {
 
+  console.log('ActionItems component rendering');
+
   return (
     <IonAccordionGroup className='action-items-group'>
       <IonAccordion value="first" className='action-items'>
