@@ -1,0 +1,192 @@
+
+ion-card {
+  margin: 10px;
+}
+
+ion-card-header {
+  padding-top:0px;
+  padding-left: 8px;
+  padding-bottom: 10px;
+}
+
+.ion-card-std {
+  background-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 0px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ion-card-std-header {
+  padding: 0px;
+}
+
+.ion-card-std-header-item{
+  --background: white;
+  background-color: white;
+}
+
+.ion-card-std-content {
+  text-align: left;
+}
+
+.ion-card-std-content-item {
+  --background: white;
+  padding-left:0px;
+  background-color: white;
+  text-align: left;
+}
+
+.ion-card-std-content-subhead {
+  font-weight: bold;
+}
+
+.ion-card-std-content-balance {
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+.ion-card-std-content-balance-amount{
+  font-size: 16pt;
+  color: black;
+  font-weight:bold;
+}
+
+.ion-card-std-content-balance-currency{
+  padding-left:6px;
+  font-size:10pt;
+}
+
+.ion-card-std-content-accounts {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+
+}
+
+.ion-card-std-content-accounts-grid {
+  padding: 0px;
+}
+
+.ion-card-std-content-accounts-count {
+  padding: 0px;
+  text-align: left;
+}
+
+.ion-card-std-content-accounts-value {
+  padding: 0px;
+  text-align: right;
+}
+
+.ion-card-std-content-info-icon {
+  padding-left: 5px;
+  font-size: 12pt;
+}
+
+.ion-card-alert {
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ion-card-alert-info {
+  background-color: #d7e4f2;
+  border-color: #1b5ab9;
+}
+
+.ion-card-alert-warn {
+  background-color: #f2ebd7;
+  border-color: #9b6501;
+}
+
+.ion-card-alert-icon { 
+  font-size:20pt;
+}
+
+.ion-card-alert-icon-col {
+  padding-top: 1px;
+  padding-bottom: 0px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.ion-card-alert-icon-col-close {
+  text-align: right;
+  vertical-align: top;
+}
+
+.ion-card-alert-text-col {
+  text-align: left;
+}
+
+.ion-card-alert-title {
+  padding-bottom:0px;
+  align-items: center;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 13pt;
+}
+
+.ion-card-alert-title-info {
+  color: #1b5ab9;
+}
+
+.ion-card-alert-title-warn {
+  color: #9b6501;
+}
+
+.ion-card-alert-content {
+  color: #555;
+  font-size: 11pt;
+  text-align: left;
+  padding: 8px;
+
+}
+
+.view-accounts {
+  padding-top:15px;
+  font-size: 12pt;
+  color: #197b98;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.view-accounts a {
+  color: #197b98;
+  text-decoration: none;
+}
+.view-accounts a:hover {
+  color: #88f4be;
+  text-decoration: none;
+}
+
+.view-accounts a:visited {
+  color: #197b98;
+  text-decoration: none;
+}
+
+
+.action-items-group {
+  padding-left: 10px;
+  padding-right: 10px; 
+}
+
+.action-items {
+  background-color: white;
+  border-style: none;
+  border-radius: 10px;
+  border-width: 2px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.action-items-item {
+  --background: white;
+  background-color: white;
+}
+
+.action-items-icon {
+  padding-top: 5px;
+  padding-right: 10px;
+}

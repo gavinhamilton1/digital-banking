@@ -1,0 +1,119 @@
+.swiper {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+}
+
+
+.forgot-password {
+  color: #197b98;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.forgot-password a {
+  color: #197b98;
+  text-decoration: none;
+}
+.forgot-password a:hover {
+  color: #88f4be;
+  text-decoration: none;
+}
+
+.forgot-password a:visited {
+  color: #197b98;
+  text-decoration: none;
+}
+.ion-content-login {
+  --background: #f0f1f1;
+}
+
+ion-list {
+  background-color: #f0f1f1;
+}
+
+ion-item {
+  --background: #f0f1f1;
+  background-color: #f0f1f1;
+}
+
+.ion-grid-login {
+  padding-top: 100px;
+  max-width: 500px;
+}
+
+ion-col {
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
+ion-label{
+  font-family: 'Mukta';
+  font-size: 20pt;
+}
+
+ion-button {
+  --background: #197b98;
+  --background-hover: #197b98;
+  --background-activated: #88f4be;
+  --background-focused: #88f4be;
+
+  --color: white;
+
+  --border-radius: 10px;
+  --border-color: #000;
+  --border-style: solid;
+  --border-width: 0px;
+
+  --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+
+  --ripple-color: rgb(132, 239, 216);
+  
+  --padding-top: 20px;
+  --padding-bottom: 20px;
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+ion-input {
+  background-color: #fff;
+  margin-top:25px;
+  margin-bottom: 0px;
+}
+
+ion-toggle {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.left-aligned-label {
+  text-align: left;
+  background-color: red;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem;
+  width: 100%;
+}
+
+.login-header {
+  margin-bottom: 24px;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  top: 50%; /* Align icon vertically */
+  right: 16px; /* Align icon to the right */
+  transform: translateY(-50%); /* Center the icon vertically */
+  cursor: pointer;
+  color: #6b6b6b;
+  font-size: 1.2rem;
+}

@@ -1,7 +1,8 @@
-import { Redirect, Route } from 'react-router-dom';
-import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
-import { IonReactRouter } from '@ionic/react-router';
-import Home from './pages/Home';
+import * as React from "react";
+import { IonReactRouter } from "@ionic/react-router";
+import { Redirect, Route } from "react-router";
+import { IonApp, IonRouterOutlet } from '@ionic/react';
+import Login from './Login';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -18,36 +19,23 @@ import '@ionic/react/css/text-alignment.css';
 import '@ionic/react/css/text-transformation.css';
 import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
+import Public from "./Public";
+import TabBar from "./TabBar";
+import Dashboard from "./Dashboard";
 
-/**
- * Ionic Dark Mode
- * -----------------------------------------------------
- * For more info, please see:
- * https://ionicframework.com/docs/theming/dark-mode
- */
-
-/* import '@ionic/react/css/palettes/dark.always.css'; */
-/* import '@ionic/react/css/palettes/dark.class.css'; */
-import '@ionic/react/css/palettes/dark.system.css';
-
-/* Theme variables */
-import './theme/variables.css';
-
-setupIonicReact();
 
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
       <IonRouterOutlet>
-        <Route exact path="/home">
-          <Home />
-        </Route>
-        <Route exact path="/">
-          <Redirect to="/home" />
-        </Route>
+        <Route path="/login" component={Login} />
+        <Route path="/public" component={Public} />
+        <Route path="/tabbar" component={TabBar} />
+        <Redirect exact from="/" to="/public" />
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
 );
 
 export default App;
+

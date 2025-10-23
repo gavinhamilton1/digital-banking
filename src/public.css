@@ -1,0 +1,31 @@
+
+.ion-header {
+  padding-top: 15px;
+  background-image: url('/HeaderBackground.png');
+  background-size: cover;
+  background-position: center;
+}
+
+ion-label {
+  font-family: Helvetica, Arial;
+  font-size: 14pt;
+}
+.ion-content-public {
+  --background: white;
+  font-family: 'Helvetica';
+ }
+
+.ion-content-std {
+  --background: #f0f1f1;
+  font-family: 'Mukta';
+ }
+.ion-content-public button {
+  z-index: 1100; /* Bring the button to the front */
+  pointer-events: auto; /* Ensure the button can be clicked */
+}
+
+.ion-label-tab{
+  font-family: 'Helvetica';
+  font-size: 10pt;
+}
+
