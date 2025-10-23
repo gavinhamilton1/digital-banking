@@ -40,8 +40,8 @@ const Dashboard: React.FC = () => {
       </IonHeader>
       <IonContent className='ion-content-std' style={{backgroundColor: 'white', minHeight: '100vh'}}>
         <IonGrid>
-        <IonRow><IonCol style={{paddingTop: '10px'}}>
-          <h1>Dashboard Loading...</h1>
+        <IonRow><IonCol style={{paddingTop: '10px', backgroundColor: 'yellow', color: 'black'}}>
+          <h1 style={{color: 'black', fontSize: '24px'}}>Dashboard Loading...</h1>
           </IonCol></IonRow>
           <IonRow><IonCol>
             <ActionItems />

@@ -11,6 +11,8 @@ const handleInfoClick = () => {
 
 const AccountsCard: React.FC = () => {
 
+  console.log('AccountsCard component rendering');
+
   return (
     <IonCard className={'ion-card-std'}>
       <IonCardHeader className={'ion-card-std-header'}>
