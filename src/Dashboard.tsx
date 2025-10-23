@@ -12,6 +12,8 @@ const Dashboard: React.FC = () => {
     console.log('Button clicked');
   };
 
+  console.log('Dashboard component rendering');
+
   return (
     <>
       <IonHeader>
@@ -36,7 +38,7 @@ const Dashboard: React.FC = () => {
           </IonGrid>
         </IonToolbar>
       </IonHeader>
-      <IonContent className='ion-content-std'>
+      <IonContent className='ion-content-std' style={{backgroundColor: 'white', minHeight: '100vh'}}>
         <IonGrid>
         <IonRow><IonCol style={{paddingTop: '10px'}}>
           </IonCol></IonRow>

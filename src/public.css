@@ -17,7 +17,9 @@ ion-label {
 
 .ion-content-std {
   --background: #f0f1f1;
+  background-color: #f0f1f1;
   font-family: 'Mukta';
+  min-height: 100vh;
  }
 .ion-content-public button {
   z-index: 1100; /* Bring the button to the front */
@@ -27,5 +29,18 @@ ion-label {
 .ion-label-tab{
   font-family: 'Helvetica';
   font-size: 10pt;
+}
+
+/* Ensure body and root have proper styling */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f1f1;
+  font-family: 'Helvetica', Arial, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: #f0f1f1;
 }
 
