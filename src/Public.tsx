@@ -25,7 +25,7 @@ const Public: React.FC = () => {
 
         <IonRow><IonCol>
         <br/><br/><br/><br/><br/><br/>
-          <IonButton expand="block" className='ion-text-capitalize' routerLink='/login'>Sign In</IonButton>
+          <IonButton expand="block" className='ion-text-capitalize' routerLink='/tabbar/dashboard'>Goto Dashboard</IonButton>
 
         </IonCol></IonRow>
         <IonRow><IonCol></IonCol></IonRow>
