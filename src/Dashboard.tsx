@@ -27,7 +27,7 @@ const Dashboard: React.FC = () => {
             </IonRow>
             <IonRow><IonCol style={{ textAlign: 'left' }}><IonLabel>Welcome, Gavin</IonLabel></IonCol></IonRow>
             <IonRow><IonCol style={{ textAlign: 'left', fontSize: '10pt' }}
-            >Your last login was October 24, 2025 9.12am ET</IonCol></IonRow>
+            >Your last login was October 24, 2025 9.41am ET</IonCol></IonRow>
             <IonRow><IonCol>
               <InfoCard type="info"
                 title="Company profile setup is in progress"
