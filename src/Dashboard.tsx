@@ -13,6 +13,7 @@ const Dashboard: React.FC = () => {
   };
 
   console.log('Dashboard component rendering');
+  console.log('Current URL:', window.location.href);
 
   return (
     <>

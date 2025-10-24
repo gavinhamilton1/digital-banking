@@ -44,3 +44,16 @@ body {
   background-color: #f0f1f1;
 }
 
+/* Force pages to be visible - override ion-page-invisible */
+ion-page {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.ion-page-invisible {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
